@@ -41,6 +41,13 @@ class BaseNote implements JsonSerializable
     public $content;
 
     /**
+     * ID of the lead the note will be attached to.
+     * @maps lead_id
+     * @var string|null $leadId public property
+     */
+    public $leadId;
+
+    /**
      * The Deal this Note is attached to
      * @var \Pipedrive\Models\BaseNoteDealTitle|null $deal public property
      */
@@ -199,6 +206,7 @@ class BaseNote implements JsonSerializable
         $json['active_flag']                 = $this->activeFlag;
         $json['add_time']                    = $this->addTime;
         $json['content']                     = $this->content;
+        $json['lead_id']                     = $this->leadId;
         $json['deal']                        = $this->deal;
         $json['lead_id']                     = $this->leadId;
         $json['deal_id']                     = $this->dealId;

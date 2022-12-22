@@ -152,7 +152,7 @@ class NotesController extends BaseController
      *                                                        sanitization on the back-end.
      * @param integer $options['userId']                      (optional) ID of the user who will be marked as the
      *                                                        author of this note. Only an admin can change the author.
-     * @param string $options['leadId']                       (optional) ID of the lead the note will be attached to.
+     * @param string  $options['leadId']                      (optional) ID of the lead the note will be attached to.
      * @param integer $options['dealId']                      (optional) ID of the deal the note will be attached to.
      * @param integer $options['personId']                    (optional) ID of the person this note will be attached to.
      * @param integer $options['orgId']                       (optional) ID of the organization this note will be
@@ -351,7 +351,7 @@ class NotesController extends BaseController
      *                                                        sanitization on the back-end.
      * @param integer $options['userId']                      (optional) ID of the user who will be marked as the
      *                                                        author of this note. Only an admin can change the author.
-     * @param string $options['leadId']                       (optional) ID of the lead the note will be attached to.
+     * @param string  $options['leadId']                      (optional) ID of the lead the note will be attached to.
      * @param integer $options['dealId']                      (optional) ID of the deal the note will be attached to.
      * @param integer $options['personId']                    (optional) ID of the person this note will be attached to.
      * @param integer $options['orgId']                       (optional) ID of the organization this note will be
